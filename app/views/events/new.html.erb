@@ -1,0 +1,7 @@
+<h1>Create an Event</h1>
+
+<%= simple_form_for(@event, html: {class: 'form-horizontal' }) do |f| %>
+  <%= f.input :name %>
+  <%= f.input :location %>
+  <%= f.button :submit %>
+<% end %>
